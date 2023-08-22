@@ -1,0 +1,43 @@
+{
+  "name": "pbl",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"npm:dev-*\"",
+    "dev-frontend": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev-backend": "cd backend && yarn start"
+  },
+  "devDependencies": {
+    "@carbon/charts-svelte": "^1.0.4",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "concurrently": "^7.2.1",
+    "d3": "^7.4.4",
+    "saos": "^1.3.0",
+    "svelte": "^3.48.0",
+    "tinro": "^0.6.12",
+    "vite": "^2.9.13"
+  },
+  "description": "This template should help get you started developing with Svelte in Vite.",
+  "main": "vite.config.js",
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "chartjs": "^0.3.24",
+    "fetch": "^1.1.0",
+    "material-symbols": "^0.2.0",
+    "yarn": "^1.22.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teejaswan/pbl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Teejaswan/pbl/issues"
+  },
+  "homepage": "https://github.com/Teejaswan/pbl#readme"
+}
